@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Les 1</title>
+
+        <style>
+            span {
+                color: green;
+                font-size: 20px;
+            }
+
+            table {
+                border: 1px solid;
+            }
+
+            .images {
+                border: 1px solid green;
+                border-radius: 40px;
+            }
+
+            #mijnparagraaf {
+                font-style: italic;
+            }
+
+        </style>
+
+        <script>
+            let a = 5;
+
+            //alert(a);
+
+            function myFunction(x, y) {
+                var z = x + y;
+                return z;
+            }
+
+            console.log(myFunction(2,3));
+        </script>
+    </head>
+    <body>
+        
+        <!-- commentaar-->
+        
+        <h1 style="color: goldenrod; background-color: aqua;">Hallo wereld</h1>
+        
+        <span>Dit is een span</span><span>Dit is een span</span>
+
+        <p id="mijnparagraaf">Dit is een paragraph hsfjhfsdhjfdsjh</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th><th>Naam</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td><td>Tyme</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Dit is een footer</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div>
+            Mooi plaatje
+        </div>
+        <div>
+            <img class="images" src="data:image/png;base64,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">
+            <img class="images" src="https://www.alpharithms.com/s3/assets/img/ascii-chart/ascii-table-alpharithms-scaled.jpg">
+        </div>
+
+        <a href="tweede.html">klik hier voor tweede</a>
+
+    </body>
+</html>
